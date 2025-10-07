@@ -11,7 +11,7 @@ tags: [life]
 
 Earlier this year I turned 26 years old, passing the 'quarter life' mark I guess. Here is the main thing that I wish I knew a lot earlier.
 
-## Take a step back and ask yourself why you are doing things
+## Take a step back and ask yourself why you are doing things ##
 Like many other brown boys, I went down the usual pipeline.
 
 Get a decent ATAR ➡️ Study Engineering ➡️ Get a Corporate Job
