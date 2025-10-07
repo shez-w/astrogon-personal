@@ -12,8 +12,8 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://janedoe.com",
-  base: "/",
+  site: "https://shez-w.github.io",
+  base: "/astrogon-personal",
   trailingSlash: "ignore",
   prefetch: {
     prefetchAll: true
