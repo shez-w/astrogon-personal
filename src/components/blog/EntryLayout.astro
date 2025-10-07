@@ -17,7 +17,7 @@ const { title, description, autodescription, image, hideToc } = entry.data;
 const { Content, headings } = await render(entry);
 
 const descriptionLenth = 200; // the max length in characters for the auto-generated description
-const globalHideToc = false; // set true to always hide the table of contents (right side menu)
+const globalHideToc = true; // set true to always hide the table of contents (right side menu)
 const tocDepth = 3; // maximum depth for the table of contents 1 = h1, etc
 
 const actuallyHideToc = hideToc || globalHideToc || headings.filter((heading) => heading.depth <= tocDepth).length === 0;
@@ -54,17 +54,6 @@ const entryDescription =
     </div>
   </section>
 
-  <section class=`container items-start justify-between mt-4`>
-    <hr />
-    <div class="flex items-center justify-center lg:justify-end mt-4">
-      <Share
-        title={title}
-        description={entryDescription}
-        folder={"blog"}
-        id={entry.id}
-      />
-    </div>
-  </section>
   <!-- Related posts -->
   {
     relatedEntries.length > 0 && (
