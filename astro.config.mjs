@@ -18,7 +18,7 @@ export default defineConfig({
   prefetch: {
     prefetchAll: true
   },
-  adapter: cloudflare(),
+  output: "static",
   integrations: [react(), sitemap(), tailwind({
     config: {
       applyBaseStyles: false
